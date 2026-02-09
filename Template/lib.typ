@@ -369,7 +369,7 @@
     )
   }
   pagebreak()
-  include "../Texte/Schluss/0 Anmerkung KI.typ"
+  include "Anmerkung KI.typ"
 
   show outline.entry.where(level: 1): it => {
     v(18pt, weak: true)
