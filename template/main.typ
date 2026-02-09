@@ -99,26 +99,6 @@ Create figures or tables like this:
   ),
 )<table>
 
-== Code Snippets
-
-Insert code snippets like this:
-
-#figure(
-  caption: "Codeblock Example",
-  sourcecode[```ts
-    const ReactComponent = () => {
-      return (
-        <div>
-          <h1>Hello World</h1>
-        </div>
-      );
-    };
-
-    export default ReactComponent;
-    ```],
-)
-
-#pagebreak()
 
 == References
 
