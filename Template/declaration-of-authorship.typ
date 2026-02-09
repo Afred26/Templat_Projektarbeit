@@ -45,7 +45,7 @@
   } else {
     let authors-by-city = authors.map(author => author.company.city).dedup()
 
-    text(authors-by-city.join(", ", last: AND.at(language)) + [ ] + end-date.display(date-format))
+    text(authors-by-city.join(", ", last: AND.at(language)) + [, ] + end-date.display(date-format))
   }
 
   v(1em)

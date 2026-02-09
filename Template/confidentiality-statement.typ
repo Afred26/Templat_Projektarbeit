@@ -10,6 +10,7 @@
   language,
   many-authors,
   date-format,
+  supervisor,
 ) = {
   let authors-by-city = authors.map(author => author.company.city).dedup()
 
@@ -51,25 +52,20 @@
     date.at(1)
   }
 
-  v(2em)
-  text(authors-by-city.dedup().join(", ", last: AND.at(language)) + [ ] + end-date.display(date-format))
-
-  v(0.5em)
-  if (many-authors) {
-    grid(
-      columns: (1fr, 1fr),
-      gutter: 20pt,
-      ..authors.map(author => {
-        v(3.5em)
-        line(length: 80%)
+  v(3em)
+  grid(
+    columns: (1fr, 1fr),
+    column-gutter: (100pt),
+    rows: (100pt ,10pt, 1fr),
+    text(authors-by-city.dedup().join(", ", last: AND.at(language)) + [, ] + end-date.display(date-format)),
+    text(authors-by-city.dedup().join(", ", last: AND.at(language)) + [, ] ),
+    line(length: 100%),
+    line(length: 100%),
+    ..authors.map(author => {
         author.name
-      })
-    )
-  } else {
-    for author in authors {
-      v(4em)
-      line(length: 40%)
-      author.name
-    }
-  }
+      }),
+      grid(
+        text(supervisor.company)
+      )
+  )
 }

@@ -34,14 +34,14 @@
    // Logo at top left if given
     align(horizon,
       if logo-left != none {
-        set image(height: left-logo-height)
+        set image(height: 70pt)
         logo-left
       }
     ),
     // Logo at top right if given
     align(horizon,
       if logo-right != none {
-        set image(height: right-logo-height)
+        set image(height: 40pt)
         logo-right
       }
     )

@@ -77,8 +77,8 @@
   heading-numbering: "1.1",
   math-numbering: "(1)",
   page-numbering: (preface: "I", main: "1 / 1", appendix: "a"),
-  logo-left: image("dhbw.svg"),
-  logo-right: none,
+  logo-left: image("../Bilder/dhbw.svg"),
+  logo-right: image("../Bilder/Hitachi Energy.svg"),
   logo-size-ratio: "1:1",
   ignored-link-label-keys-for-highlighting: (),
   body,
@@ -141,8 +141,8 @@
   }
 
   // save heading and body font families in variables
-  let body-font = "Open Sans"
-  let heading-font = "Montserrat"
+  let body-font = "Palatino Linotype"
+  let heading-font = "PT Sans Caption"
 
   // customize look of figure
   set figure.caption(separator: [ --- ], position: bottom)
@@ -272,7 +272,7 @@
                         counter(heading).get().first()
                       }
 
-                      [#heading-counter #current-heading.body]
+                      [#current-heading.body]
                     }
                   } else {
                     let elems = query(selector(heading.where(level: 1)).after(here()))
@@ -285,7 +285,7 @@
                         counter(heading).get().first() + 1
                       }
 
-                      [#heading-counter #current-heading.body]
+                      [#current-heading.body]
                     }
                   }
                 ]
@@ -294,11 +294,11 @@
                 dir: ltr,
                 spacing: 1em,
                 if (show-header-left-logo and logo-left != none) {
-                  set image(height: left-logo-height / 2)
+                  set image(height: 25pt, fit: "stretch")
                   logo-left
                 },
                 if (show-header-right-logo and logo-right != none) {
-                  set image(height: right-logo-height / 2)
+                  set image(height: 17pt)
                   logo-right
                 },
               ),
@@ -350,6 +350,7 @@
       language,
       many-authors,
       date-format,
+      supervisor,
     )
   }
 
@@ -367,6 +368,8 @@
       date-format,
     )
   }
+  pagebreak()
+  include "../Texte/Schluss/0 Anmerkung KI.typ"
 
   show outline.entry.where(level: 1): it => {
     v(18pt, weak: true)
