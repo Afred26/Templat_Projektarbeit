@@ -1,4 +1,4 @@
-#import "../Template_P/lib.typ": *
+#import "@local/templat-projektarbeit:0.1.2": *
 #import "Zusatz/acronyms.typ": acronyms
 
 #show: supercharged-dhbw.with(
@@ -24,3 +24,10 @@
 #include "Text/Einleitung/0 Vorwort.typ"
 
 #include "Text/Einleitung/1 Überblick Praxisphase.typ"
+
+// Hauptteil
+#include "Text/Hauptteil/0.typ"
+
+
+// 
+#include "Text/Schluss/0.typ"
