@@ -1,0 +1,12 @@
+[package]
+name = "templat-projektarbeit"
+version = "0.1.0"
+entrypoint = "Template_P/lib.typ"
+categories = [ ]
+disciplines = [ ]
+compiler = "0.13.1"
+
+[template]
+path = "Template"
+entrypoint = "main.typ"
+thumbnail = ""

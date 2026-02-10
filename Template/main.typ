@@ -1,4 +1,4 @@
-#import "Template/lib.typ": *
+#import "../Template_P/lib.typ": *
 #import "Zusatz/acronyms.typ": acronyms
 
 #show: supercharged-dhbw.with(
