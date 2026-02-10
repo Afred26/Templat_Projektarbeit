@@ -369,7 +369,7 @@
     )
   }
   pagebreak()
-  include "Anmerkung KI.typ"
+  include "../Template/Zusatz/Anmerkung KI.typ"
 
   show outline.entry.where(level: 1): it => {
     v(18pt, weak: true)
