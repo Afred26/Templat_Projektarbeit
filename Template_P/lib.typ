@@ -298,7 +298,7 @@
                   logo-left
                 },
                 if (show-header-right-logo and logo-right != none) {
-                  set image(height: 17pt)
+                  set image(height: 22pt)
                   logo-right
                 },
               ),

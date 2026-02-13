@@ -41,7 +41,7 @@
     // Logo at top right if given
     align(horizon,
       if logo-right != none {
-        set image(height: 40pt)
+        set image(height: 55pt)
         logo-right
       }
     )

@@ -1,5 +1,5 @@
-#import "@local/templat-projektarbeit:0.1.4": *
-#import "Zusatz/acronyms.typ": acronyms
+#import "lib.typ": *
+#import "../Template/Zusatz/acronyms.typ": acronyms
 
 #show: supercharged-dhbw.with(
   title: "Transformation im Engineering: Von 2D-CAD Design über 3D - BIM Modellierung zum digitalen Zwilling",
@@ -10,7 +10,7 @@
   ),
   acronyms: acronyms, // displays the acronyms defined in the acronyms dictionary
   at-university: false, // if true the company name on the title page and the confidentiality statement are hidden
-  bibliography: bibliography("Zusatz/zotero.bib"),
+  bibliography: bibliography("../Template/Zusatz/zotero.bib"),
   date: datetime.today(),
   language: "de", // en, de
   supervisor: (company: "Marco Marino"),
@@ -21,13 +21,13 @@
 )
 
 // Einleitung
-#include "Text/Einleitung/0 Vorwort.typ"
+#include "../Template/Text/Einleitung/0 Vorwort.typ"
 
-#include "Text/Einleitung/1 Überblick Praxisphase.typ"
+#include "../Template/Text/Einleitung/1 Überblick Praxisphase.typ"
 
 // Hauptteil
-#include "Text/Hauptteil/0.typ"
+#include "../Template/Text/Hauptteil/0.typ"
 
 
 // 
-#include "Text/Schluss/0.typ"
+#include "../Template/Text/Schluss/0.typ"
