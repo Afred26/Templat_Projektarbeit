@@ -141,15 +141,15 @@
   }
 
   // save heading and body font families in variables
-  let body-font = "Palatino Linotype"
-  let heading-font = "PT Sans Caption"
-
+  let body-font = "Hitachi Sans"
+  let heading-font = "Hitachi Sans"
+  
   // customize look of figure
   set figure.caption(separator: [ --- ], position: bottom)
 
   // set body font family
   set text(font: body-font, lang: language, 12pt)
-  show heading: set text(weight: "semibold", font: heading-font)
+  show heading: set text(weight: "bold", font: heading-font)
 
   // heading numbering
   set heading(numbering: heading-numbering)

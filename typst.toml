@@ -1,6 +1,6 @@
 [package]
 name = "templat-projektarbeit"
-version = "0.1.2"
+version = "0.1.4"
 entrypoint = "Template_P/lib.typ"
 categories = [ ]
 disciplines = [ ]

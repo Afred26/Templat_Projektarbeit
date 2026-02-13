@@ -1,5 +1,6 @@
-#import "@local/templat-projektarbeit:0.1.2": *
+#import "@local/templat-projektarbeit:0.1.3": *
 #import "acronyms.typ": acronyms
+
 
 #v(2em)
 #text(size: 20pt, weight: "bold", "Anmerkung zur Nutzung von Künstlicher 
@@ -19,6 +20,7 @@ Intelligenz")
     //Körper
     text("ChatGPT"),    text(""),
     text("Copilot"),    text("Nutzung von CoPilot für Korrektur- und Formulierungshilfe"),
+    text("Gemini"),     text("Recherche"),
     text("Gemini"),     text("Recherche"),
    
   )

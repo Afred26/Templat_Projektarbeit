@@ -54,7 +54,7 @@
   }
 
   // title
-  align(center, text(weight: "semibold", font: heading-font, 2em, title))
+  align(center, text(weight: "bold", font: heading-font, 2em, title))
 
   if (many-authors) {
     v(0.5em)
