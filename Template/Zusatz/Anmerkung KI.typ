@@ -18,10 +18,9 @@ Intelligenz")
     text("Werkzeug"),   text("Beschreibung der Nutzung"),
 
     //Körper
-    text("ChatGPT"),    text(""),
-    text("Copilot"),    text("Nutzung von CoPilot für Korrektur- und Formulierungshilfe"),
-    text("Gemini"),     text("Recherche"),
-    text("Gemini"),     text("Recherche"),
+    text("Copilot"),              text("Nutzung von CoPilot für Korrektur- und Formulierungshilfe"),
+    text("Gemini"),               text("Recherche von allgemeinen Informationen"),
+    text("Google Scolar Labs"),   text("Recherche von Fachtexten"),
    
   )
 )<KI>
