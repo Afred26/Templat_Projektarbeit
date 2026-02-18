@@ -148,7 +148,7 @@
   set figure.caption(separator: [ --- ], position: bottom)
 
   // set body font family
-  set text(font: body-font, lang: language, 12pt)
+  set text(font: body-font, lang: language, 10.5pt)
   show heading: set text(weight: "bold", font: heading-font)
 
   // heading numbering
