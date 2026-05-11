@@ -1,6 +1,4 @@
-#import "@local/templat-projektarbeit:0.1.5": *
-#import "acronyms.typ": acronyms
-
+#import "@local/templat-projektarbeit:0.1.7": *
 
 #v(2em)
 #text(size: 20pt, weight: "bold", "Anmerkung zur Nutzung von Künstlicher 
@@ -19,10 +17,10 @@ Intelligenz")
     text("Werkzeug"),             text("Beschreibung der Nutzung"),
 
     //Körper
-    text("Copilot"),              text("Nutzung von CoPilot für Korrektur- und Formulierungshilfe"),
-    text("Copilot"),              text("Durchsuchen und Zusammenfassen von Firmendokumenten"),
+    text("Copilot"),              text("Nutzung für Korrektur- und Formulierungshilfe"),
+    text("Copilot"),              text("Durchsuchen und Zusammenfassen von (Firmen-)Dokumenten"),
     text("Gemini"),               text("Recherche von allgemeinen Informationen"),
-    text("Google Scolar Labs"),   text("Recherche von Fachtexten"),
+    text("Google Scholar Labs"),   text("Recherche von Fachtexten"),
    
   )
 )<KI>

@@ -148,7 +148,7 @@
   set figure.caption(separator: [ --- ], position: bottom)
 
   // set body font family
-  set text(font: body-font, lang: language, 10.5pt)
+  set text(font: body-font, lang: language, 12pt) //10.5 ist gut
   show heading: set text(weight: "bold", font: heading-font)
 
   // heading numbering
@@ -369,7 +369,7 @@
     )
   }
   pagebreak()
-  include "../Template/Zusatz/Anmerkung KI.typ"
+  include "Anmerkung KI.typ"
 
   show outline.entry.where(level: 1): it => {
     v(18pt, weak: true)
