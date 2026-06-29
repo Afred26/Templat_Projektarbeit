@@ -44,13 +44,13 @@
           } else if defs.len() == 2 {
             display("acronyms", acros, acr, defs.at(1), link: link)
           } else {
-            panic("Definitions should be arrays of one or two strings. Definition of " + acr + " is: " + type(defs))
+            panic("Definitions should be arrays of one or two strings. Definition of " + acr + " is: " + repr(type(defs)))
           }
         } else {
           display("acronyms", acros, acr, defs.at(0), link: link)
         }
       } else {
-        panic("Definitions should be arrays of one or two strings. Definition of " + acr + " is: " + type(defs))
+        panic("Definitions should be arrays of one or two strings. Definition of " + acr + " is: " + repr(type(defs)))
       }
     }
   }
