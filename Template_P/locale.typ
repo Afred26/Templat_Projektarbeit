@@ -141,3 +141,23 @@ The content of this thesis may not be made available, either in its entirety or 
   "de": "Anhang",
   "en": "Appendix",
 )
+
+#let KI_TITLE = (
+  "de": "Anmerkung zur Nutzung von Künstlicher Intelligenz",
+  "en": "Note on the Use of Artificial Intelligence",
+)
+
+#let KI_CAPTION = (
+  "de": "Übersicht über die verwendeten KI-basierten Werkzeuge",
+  "en": "Overview of the AI-based tools used",
+)
+
+#let KI_COL_TOOL = (
+  "de": "Werkzeug",
+  "en": "Tool",
+)
+
+#let KI_COL_DESC = (
+  "de": "Beschreibung der Nutzung",
+  "en": "Description of Use",
+)
