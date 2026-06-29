@@ -5,14 +5,11 @@
       panic(element + " is not a key in the " + dict-type + " dictionary.")
     }
   }
-
-  return true
 }
 
 #let display-link(dict-type, state, element, text) = {
-  if is-in-dict(dict-type, state, element) {
-    link(label(dict-type + "-" + element), text)
-  }
+  is-in-dict(dict-type, state, element)
+  link(label(dict-type + "-" + element), text)
 }
 
 #let display(dict-type, state, element, text, link: true) = {
