@@ -14,6 +14,7 @@
   date: datetime.today(),
   language: "de", // en, de
   supervisor: (company: "Max Musterbetreuer"),
+  ki-anmerkung-content: include "Anmerkung KI.typ",
   university: "Duale Hochschule Baden-Württemberg",
   university-location: "Musterstadt",
   university-short: "DHBW",
