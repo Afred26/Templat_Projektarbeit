@@ -2,10 +2,10 @@
 #import "Zusatz/acronyms.typ": acronyms
 
 #show: supercharged-dhbw.with(
-  title: "Transformation im Engineering: Von 2D-CAD Design über 3D - BIM Modellierung zum digitalen Zwilling",
+  title: "Titel der Projektarbeit",
   authors: (
-    (name: "Fredrik Schall", student-id: "1194924", course: "TEIT24EE1", course-of-studies: "Elektro- & Informationstechnik", company: (
-      (name: "Hitachi Energy Germany AG", post-code: "68309", city: "Mannheim")
+    (name: "Max Mustermann", student-id: "1234567", course: "MUST24XX1", course-of-studies: "Studiengang", company: (
+      (name: "Musterunternehmen GmbH", post-code: "12345", city: "Musterstadt")
     )),
   ),
   acronyms: acronyms, // displays the acronyms defined in the acronyms dictionary
@@ -14,9 +14,9 @@
   date: datetime.today(),
   language: "de", // en, de
   ki-anmerkung-content: include "Anmerkung KI.typ",
-  supervisor: (company: "Marco Marino"),
+  supervisor: (company: "Max Musterbetreuer"),
   university: "Duale Hochschule Baden-Württemberg",
-  university-location: "Mannheim",
+  university-location: "Musterstadt",
   university-short: "DHBW",
   // for more options check the package documentation (https://typst.app/universe/package/supercharged-dhbw)
 )
@@ -30,5 +30,5 @@
 #include "Text/Hauptteil/0.typ"
 
 
-// 
+//
 #include "Text/Schluss/0.typ"

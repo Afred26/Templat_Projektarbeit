@@ -79,7 +79,7 @@
   math-numbering: "(1)",
   page-numbering: (preface: "I", main: "1 / 1", appendix: "a"),
   logo-left: image("../Bilder/dhbw.svg"),
-  logo-right: image("../Bilder/Hitachi Energy.svg"),
+  logo-right: none,
   logo-size-ratio: "1:1",
   ignored-link-label-keys-for-highlighting: (),
   body,
@@ -142,8 +142,8 @@
   }
 
   // save heading and body font families in variables
-  let body-font = "Hitachi Sans"
-  let heading-font = "Hitachi Sans"
+  let body-font = "Arial"
+  let heading-font = "Arial"
   
   // customize look of figure
   set figure.caption(separator: [ --- ], position: bottom)
