@@ -54,6 +54,7 @@
   show-list-of-tables: true,
   show-code-snippets: true,
   show-abstract: true,
+  foreword: none,
   numbering-alignment: center,
   toc-depth: 3,
   acronym-spacing: 5em,
@@ -370,12 +371,6 @@
       date-format,
     )
   }
-  pagebreak()
-  if ki-anmerkung-content != none {
-    ki-anmerkung-content
-  } else {
-    include "Anmerkung KI.typ"
-  }
 
   show outline.entry.where(level: 1): it => {
     v(18pt, weak: true)
@@ -387,6 +382,12 @@
   if (show-abstract and abstract != none) {
     align(center + horizon, heading(level: 1, numbering: none, outlined: false)[Abstract])
     text(abstract)
+  }
+
+  if foreword != none {
+    pagebreak()
+    heading(level: 1, numbering: none, outlined: false)[Vorwort]
+    foreword
   }
 
   set par(leading: 0.65em)
@@ -510,6 +511,11 @@
       style: bib-style,
     )
     bibliography
+  }
+
+  if ki-anmerkung-content != none {
+    pagebreak()
+    ki-anmerkung-content
   }
 
   if (appendix != none) {
