@@ -1,10 +1,11 @@
 [package]
 name = "templat-projektarbeit"
-version = "0.1.7"
+version = "0.1.9"
 entrypoint = "Template_P/lib.typ"
 categories = [ ]
 disciplines = [ ]
 compiler = "0.15.0"
+description = "Warnings behoben"
 
 [template]
 path = "Template"
