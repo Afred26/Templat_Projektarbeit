@@ -78,6 +78,7 @@
   heading-numbering: "1.1",
   math-numbering: "(1)",
   page-numbering: (preface: "I", main: "1 / 1", appendix: "a"),
+  font: "Arial",
   logo-left: image("../Bilder/dhbw.svg"),
   logo-right: none,
   logo-size-ratio: "1:1",
@@ -142,8 +143,8 @@
   }
 
   // save heading and body font families in variables
-  let body-font = "Arial"
-  let heading-font = "Arial"
+  let body-font = font
+  let heading-font = font
   
   // customize look of figure
   set figure.caption(separator: [ --- ], position: bottom)

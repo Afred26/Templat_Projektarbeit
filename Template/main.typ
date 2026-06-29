@@ -18,6 +18,10 @@
   university: "Duale Hochschule Baden-Württemberg",
   university-location: "Musterstadt",
   university-short: "DHBW",
+  // Schriftart anpassen (z.B. "Hitachi Sans", "Arial", "New Computer Modern"):
+  font: "Arial",
+  // Firmenlogo einfügen (Datei z.B. in assets/ ablegen):
+  // logo-right: image("assets/firmenlogo.svg"),
   // for more options check the package documentation (https://typst.app/universe/package/supercharged-dhbw)
 )
 
