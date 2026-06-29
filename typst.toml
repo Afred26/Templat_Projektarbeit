@@ -5,7 +5,7 @@ entrypoint = "Template_P/lib.typ"
 categories = [ ]
 disciplines = [ ]
 compiler = "0.15.0"
-description = "Warnings behoben"
+description = "Template für Projektarbeiten an der DHBW"
 
 [template]
 path = "Template"
