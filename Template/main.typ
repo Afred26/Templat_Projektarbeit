@@ -15,7 +15,7 @@
   language: "de", // en, de
   ki-anmerkung-content: include "Anmerkung KI.typ",
   // Vorwort einfügen (optional):
-  // foreword: include "Texte/vorwort.typ",
+  foreword: include "Texte/Vorwort.typ",
   supervisor: (company: "Max Musterbetreuer"),
   university: "Duale Hochschule Baden-Württemberg",
   university-location: "Musterstadt",
