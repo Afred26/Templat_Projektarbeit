@@ -5,7 +5,7 @@
   title: "Titel der Projektarbeit",
   authors: (
     (name: "Max Mustermann", student-id: "1234567", course: "MUST24XX1", course-of-studies: "Studiengang", company: (
-      (name: "Musterunternehmen GmbH", post-code: "12345", city: "Musterstadt")
+      (name: "Musterunternehmen GmbH", post-code: "12345", city: "Musterstadt", country: "Deutschland")
     )),
   ),
   acronyms: acronyms, // displays the acronyms defined in the acronyms dictionary
