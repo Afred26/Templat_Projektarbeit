@@ -1,4 +1,4 @@
-#v(2em)
+0.1.14#v(2em)
 #text(size: 20pt, weight: "bold", "Anmerkung zur Nutzung von Künstlicher 
 Intelligenz")
 #v(1em)
