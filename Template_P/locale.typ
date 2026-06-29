@@ -42,9 +42,9 @@
 
 #let DECLARATION_OF_AUTHORSHIP_SECTION_A_PLURAL = "Wir versichern hiermit, dass wir die vorliegende Arbeit mit dem Thema:"
 
-#let DECLARATION_OF_AUTHORSHIP_SECTION_B_SINGLE = "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt habe und diese bislang nicht veröffentlicht wurde. Des Weiteren versichere ich, dass die eingereichte elektronische Fassung mit der gedruckten Ausfertigung übereinstimmt."
+#let DECLARATION_OF_AUTHORSHIP_SECTION_B_SINGLE = "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt habe und diese bislang nicht veröffentlicht wurde."
 
-#let DECLARATION_OF_AUTHORSHIP_SECTION_B_PLURAL = "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet haben und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt haben und diese bislang nicht veröffentlicht wurde. Des Weiteren versichern wir, dass die eingereichte elektronische Fassung mit der gedruckten Ausfertigung übereinstimmt."
+#let DECLARATION_OF_AUTHORSHIP_SECTION_B_PLURAL = "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet haben und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt haben und diese bislang nicht veröffentlicht wurde."
 
 #let CONFIDENTIALITY_STATEMENT_TITLE = (
   "de": "Sperrvermerk",
@@ -75,11 +75,6 @@ Der Inhalt dieser Arbeit darf weder als Ganzes noch in Auszügen Personen außer
   "en": ".
 
 The content of this thesis may not be made available, either in its entirety or in excerpts, to persons outside of the examination process and the evaluation process, unless otherwise authorized by the Dual Partner.",
-)
-
-#let CONFIDENTIALITY_STATEMENT_SECTION_F = (
-  "de": "",
-  "en": "",
 )
 
 #let INSTITUTION_SINGLE = (
