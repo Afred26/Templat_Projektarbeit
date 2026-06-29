@@ -38,13 +38,13 @@
   "en": "Declaration of Authorship",
 )
 
-#let DECLARATION_OF_AUTHORSHIP_SECTION_A_SINGLE = "Gemäß Ziffer 1.1.13 der Anlage 1 zu §§ 3, 4 und 5 der Studien- und Prüfungsordnung für die Bachelorstudiengänge im Studienbereich Technik der Dualen Hochschule Baden- Württemberg vom 29.09.2017. Ich versichere hiermit, dass ich meine Arbeit mit dem Thema:"
+#let DECLARATION_OF_AUTHORSHIP_SECTION_A_SINGLE = "Ich versichere hiermit, dass ich die vorliegende Arbeit mit dem Thema:"
 
-#let DECLARATION_OF_AUTHORSHIP_SECTION_A_PLURAL = "Gemäß Ziffer 1.1.13 der Anlage 1 zu §§ 3, 4 und 5 der Studien- und Prüfungsordnung für die Bachelorstudiengänge im Studienbereich Technik der Dualen Hochschule Baden- Württemberg vom 29.09.2017. Wir versichern hiermit, dass wir unsere Arbeit mit dem Thema:"
+#let DECLARATION_OF_AUTHORSHIP_SECTION_A_PLURAL = "Wir versichern hiermit, dass wir die vorliegende Arbeit mit dem Thema:"
 
-#let DECLARATION_OF_AUTHORSHIP_SECTION_B_SINGLE = "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe. Ich versichere zudem, dass alle eingereichten Fassungen übereinstimmen."
+#let DECLARATION_OF_AUTHORSHIP_SECTION_B_SINGLE = "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt habe und diese bislang nicht veröffentlicht wurde. Des Weiteren versichere ich, dass die eingereichte elektronische Fassung mit der gedruckten Ausfertigung übereinstimmt."
 
-#let DECLARATION_OF_AUTHORSHIP_SECTION_B_PLURAL = "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt haben. Wir versichern zudem, dass alle eingereichten Fassungen übereinstimmen."
+#let DECLARATION_OF_AUTHORSHIP_SECTION_B_PLURAL = "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet haben und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt haben und diese bislang nicht veröffentlicht wurde. Des Weiteren versichern wir, dass die eingereichte elektronische Fassung mit der gedruckten Ausfertigung übereinstimmt."
 
 #let CONFIDENTIALITY_STATEMENT_TITLE = (
   "de": "Sperrvermerk",
@@ -71,15 +71,15 @@
 #let CONFIDENTIALITY_STATEMENT_SECTION_E = (
   "de": " vorgelegt.
 
-Der Inhalt dieser Arbeit darf weder als Ganzes noch in Auszügen Personen außerhalb des Prüfungsprozesses und des Evaluationsverfahrens zugänglich gemacht werden, sofern keine anders lautende Genehmigung der ",
+Der Inhalt dieser Arbeit darf weder als Ganzes noch in Auszügen Personen außerhalb des Prüfungsprozesses und des Evaluationsverfahrens zugänglich gemacht werden, sofern keine anderslautende Genehmigung des Dualen Partners vorliegt.",
   "en": ".
 
-The content of this thesis may not be made available, either in its entirety or in excerpts, to persons outside of the examination process and the evaluation process, unless otherwise authorized by the training ",
+The content of this thesis may not be made available, either in its entirety or in excerpts, to persons outside of the examination process and the evaluation process, unless otherwise authorized by the Dual Partner.",
 )
 
 #let CONFIDENTIALITY_STATEMENT_SECTION_F = (
-  "de": " vorliegt.",
-  "en": ".",
+  "de": "",
+  "en": "",
 )
 
 #let INSTITUTION_SINGLE = (
