@@ -4,7 +4,7 @@ version = "0.1.7"
 entrypoint = "Template_P/lib.typ"
 categories = [ ]
 disciplines = [ ]
-compiler = "0.13.1"
+compiler = "0.15.0"
 
 [template]
 path = "Template"
