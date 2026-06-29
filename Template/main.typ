@@ -13,6 +13,7 @@
   bibliography: bibliography("Zusatz/zotero.bib"),
   date: datetime.today(),
   language: "de", // en, de
+  ki-anmerkung-content: include "Anmerkung KI.typ",
   supervisor: (company: "Marco Marino"),
   university: "Duale Hochschule Baden-Württemberg",
   university-location: "Mannheim",

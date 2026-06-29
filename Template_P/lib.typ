@@ -47,6 +47,7 @@
   type-of-degree: none,
   show-confidentiality-statement: true,
   show-declaration-of-authorship: true,
+  ki-anmerkung-content: none,
   show-table-of-contents: true,
   show-acronyms: true,
   show-list-of-figures: true,
@@ -369,7 +370,11 @@
     )
   }
   pagebreak()
-  include "Anmerkung KI.typ"
+  if ki-anmerkung-content != none {
+    ki-anmerkung-content
+  } else {
+    include "Anmerkung KI.typ"
+  }
 
   show outline.entry.where(level: 1): it => {
     v(18pt, weak: true)
