@@ -385,7 +385,6 @@
   }
 
   if foreword != none {
-    pagebreak()
     heading(level: 1, numbering: none, outlined: false)[Vorwort]
     foreword
   }
