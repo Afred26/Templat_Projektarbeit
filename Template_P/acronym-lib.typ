@@ -1,5 +1,5 @@
 #import "locale.typ": ACRONYMS
-#import "shared-lib.typ": display, display-link, is-in-dict
+#import "shared-lib.typ": display, display-link
 
 #let prefix = "acronym-state-"
 #let acros = state("acronyms", none)
@@ -26,7 +26,9 @@
   context {
     let acronyms = acros.get()
 
-    if is-in-dict("acronyms", acros, acr) {
+    if acr not in acronyms {
+      panic(acr + " is not a key in the acronyms dictionary.")
+    } else {
       let defs = acronyms.at(acr)
       if type(defs) == str {
         if plural {
