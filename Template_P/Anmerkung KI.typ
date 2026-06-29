@@ -1,4 +1,4 @@
-#import "@local/templat-projektarbeit:0.1.9": *
+#import "@local/templat-projektarbeit:0.1.11": *
 
 #v(2em)
 #text(size: 20pt, weight: "bold", "Anmerkung zur Nutzung von Künstlicher 

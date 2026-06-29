@@ -1,2 +1,2 @@
-#import "@local/templat-projektarbeit:0.1.9": *
+#import "@local/templat-projektarbeit:0.1.11": *
 #import "../../Zusatz/acronyms.typ": acronyms

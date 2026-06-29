@@ -78,7 +78,7 @@
   heading-numbering: "1.1",
   math-numbering: "(1)",
   page-numbering: (preface: "I", main: "1 / 1", appendix: "a"),
-  font: "Arial",
+  font:"Liberation Serif",
   logo-left: image("../Bilder/dhbw.svg"),
   logo-right: none,
   logo-size-ratio: "1:1",
