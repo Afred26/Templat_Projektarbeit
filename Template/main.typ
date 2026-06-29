@@ -25,14 +25,6 @@
   // for more options check the package documentation (https://typst.app/universe/package/supercharged-dhbw)
 )
 
-// Einleitung
-#include "Text/Einleitung/0 Vorwort.typ"
 
-#include "Text/Einleitung/1 Überblick Praxisphase.typ"
+#include "Texte/lorem_ipsum.typ"
 
-// Hauptteil
-#include "Text/Hauptteil/0.typ"
-
-
-//
-#include "Text/Schluss/0.typ"
