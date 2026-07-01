@@ -136,3 +136,7 @@ The content of this thesis may not be made available, either in its entirety or 
   "de": "Anhang",
   "en": "Appendix",
 )
+#let AI_USAGE = (
+  "de": "Anmerkung zu Nutzung von KI",
+  "en": "Note on the Use of AI",
+)

@@ -513,7 +513,7 @@
   }
 
   if ki-anmerkung-content != none {
-    pagebreak()
+     heading(level: 1, numbering: none)[#AI_USAGE.at(language) ]
     ki-anmerkung-content
   }
 
