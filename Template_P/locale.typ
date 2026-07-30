@@ -38,13 +38,25 @@
   "en": "Declaration of Authorship",
 )
 
-#let DECLARATION_OF_AUTHORSHIP_SECTION_A_SINGLE = "Ich versichere hiermit, dass ich die vorliegende Arbeit mit dem Thema:"
+#let DECLARATION_OF_AUTHORSHIP_SECTION_A_SINGLE = (
+  "de": "Ich versichere hiermit, dass ich die vorliegende Arbeit mit dem Thema:",
+  "en": "I hereby declare that I wrote the present thesis with the topic:",
+)
 
-#let DECLARATION_OF_AUTHORSHIP_SECTION_A_PLURAL = "Wir versichern hiermit, dass wir die vorliegende Arbeit mit dem Thema:"
+#let DECLARATION_OF_AUTHORSHIP_SECTION_A_PLURAL = (
+  "de": "Wir versichern hiermit, dass wir die vorliegende Arbeit mit dem Thema:",
+  "en": "We hereby declare that we wrote the present thesis with the topic:",
+)
 
-#let DECLARATION_OF_AUTHORSHIP_SECTION_B_SINGLE = "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt habe und diese bislang nicht veröffentlicht wurde."
+#let DECLARATION_OF_AUTHORSHIP_SECTION_B_SINGLE = (
+  "de": "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt habe und diese bislang nicht veröffentlicht wurde.",
+  "en": "independently and without the use of any sources or aids other than those indicated, that this thesis has not been submitted to any other examination with identical or comparable content, and that it has not been previously published.",
+)
 
-#let DECLARATION_OF_AUTHORSHIP_SECTION_B_PLURAL = "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet haben und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt haben und diese bislang nicht veröffentlicht wurde."
+#let DECLARATION_OF_AUTHORSHIP_SECTION_B_PLURAL = (
+  "de": "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet haben und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt haben und diese bislang nicht veröffentlicht wurde.",
+  "en": "independently and without the use of any sources or aids other than those indicated, that this thesis has not been submitted to any other examination with identical or comparable content, and that it has not been previously published.",
+)
 
 #let CONFIDENTIALITY_STATEMENT_TITLE = (
   "de": "Sperrvermerk",
@@ -139,4 +151,8 @@ The content of this thesis may not be made available, either in its entirety or 
 #let AI_USAGE = (
   "de": "Anmerkung zu Nutzung von KI",
   "en": "Note on the Use of AI",
+)
+#let FOREWORD = (
+  "de": "Vorwort",
+  "en": "Foreword",
 )
