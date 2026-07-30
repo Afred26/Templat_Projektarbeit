@@ -12,7 +12,7 @@ This means all the styles are contained in these files:
   Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
-that aren’t available as static fonts. Not all apps support variable fonts, and
+that aren’t available as static fonts. Not all apps support variable fonts and
 in those cases you can use the static font files for Open Sans:
   Open_Sans/static/OpenSans_Condensed-Light.ttf
   Open_Sans/static/OpenSans_Condensed-Regular.ttf
@@ -91,7 +91,7 @@ Android Apps
 License
 -------
 Please read the full license text (OFL.txt) to understand the permissions,
-restrictions and requirements for usage, redistribution, and modification.
+restrictions and requirements for usage, redistribution and modification.
 
 You can use them in your products & projects – print or digital,
 commercial or otherwise.

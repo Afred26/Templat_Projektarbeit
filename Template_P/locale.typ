@@ -50,12 +50,12 @@
 
 #let DECLARATION_OF_AUTHORSHIP_SECTION_B_SINGLE = (
   "de": "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt habe und diese bislang nicht veröffentlicht wurde.",
-  "en": "independently and without the use of any sources or aids other than those indicated, that this thesis has not been submitted to any other examination with identical or comparable content, and that it has not been previously published.",
+  "en": "independently and without the use of any sources or aids other than those indicated, that this thesis has not been submitted to any other examination with identical or comparable content and that it has not been previously published.",
 )
 
 #let DECLARATION_OF_AUTHORSHIP_SECTION_B_PLURAL = (
   "de": "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet haben und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt haben und diese bislang nicht veröffentlicht wurde.",
-  "en": "independently and without the use of any sources or aids other than those indicated, that this thesis has not been submitted to any other examination with identical or comparable content, and that it has not been previously published.",
+  "en": "independently and without the use of any sources or aids other than those indicated, that this thesis has not been submitted to any other examination with identical or comparable content and that it has not been previously published.",
 )
 
 #let CONFIDENTIALITY_STATEMENT_TITLE = (
