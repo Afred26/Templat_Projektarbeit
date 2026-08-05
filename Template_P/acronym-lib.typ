@@ -10,6 +10,9 @@
 
 // Returns the display text for an acronym (2nd array element if provided, otherwise the key).
 #let get-acr-display(acronyms, acr) = {
+  if acronyms == none or acr not in acronyms {
+    return acr
+  }
   let defs = acronyms.at(acr)
   if type(defs) == array and defs.len() >= 2 and type(defs.at(1)) == str {
     defs.at(1)
