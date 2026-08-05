@@ -8,12 +8,25 @@
   acros.update(acronyms)
 }
 
+// Returns the display text for an acronym (2nd array element if provided, otherwise the key).
+#let get-acr-display(acronyms, acr) = {
+  let defs = acronyms.at(acr)
+  if type(defs) == array and defs.len() >= 2 and type(defs.at(1)) == str {
+    defs.at(1)
+  } else {
+    acr
+  }
+}
 
 #let acrs(acr, plural: false, link: true) = {
-  if plural {
-    display("acronyms", acros, acr, acr + "s", link: link)
-  } else {
-    display("acronyms", acros, acr, acr, link: link)
+  context {
+    let acronyms = acros.get()
+    let short = get-acr-display(acronyms, acr)
+    if plural {
+      display("acronyms", acros, acr, short + "s", link: link)
+    } else {
+      display("acronyms", acros, acr, short, link: link)
+    }
   }
 }
 
@@ -63,10 +76,14 @@
 }
 
 #let acrf(acr, plural: false, link: true) = {
-  if plural {
-    display("acronyms", acros, acr, [#acrlpl(acr) (#acr\s)], link: link)
-  } else {
-    display("acronyms", acros, acr, [#acrl(acr) (#acr)], link: link)
+  context {
+    let acronyms = acros.get()
+    let short = get-acr-display(acronyms, acr)
+    if plural {
+      display("acronyms", acros, acr, [#acrlpl(acr, link: false) (#short\s)], link: link)
+    } else {
+      display("acronyms", acros, acr, [#acrl(acr, link: false) (#short)], link: link)
+    }
   }
   state(prefix + acr, false).update(true)
 }
@@ -108,7 +125,8 @@
 
     let max-width = 0pt
     for acr in acronym-keys {
-      let result = measure(acr).width
+      let short = get-acr-display(acronyms, acr)
+      let result = measure(short).width
 
       if (result > max-width) {
         max-width = result
@@ -118,10 +136,11 @@
     let acr-list = acronym-keys.sorted()
 
     for acr in acr-list {
+      let short = get-acr-display(acronyms, acr)
       grid(
         columns: (max-width + 0.5em, auto),
         gutter: acronym-spacing,
-        [*#acr#label("acronyms-" + acr)*], [#acrl(acr, link: false)],
+        [*#short#label("acronyms-" + acr)*], [#acrl(acr, link: false)],
       )
     }
   }
