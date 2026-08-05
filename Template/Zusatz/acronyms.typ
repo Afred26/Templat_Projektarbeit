@@ -1,3 +1,5 @@
+#import "@local/templat-projektarbeit:0.1.17": *
+
 #let acronyms = (
   
   CAD: "Computer Aided Design (engl.)",

@@ -1,4 +1,4 @@
-#import "@local/templat-projektarbeit:0.1.16": *
+#import "@local/templat-projektarbeit:0.1.17": *
 
 #show: supercharged-dhbw.with(
   title: "Titel der Projektarbeit",
