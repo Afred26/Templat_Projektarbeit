@@ -1,4 +1,4 @@
-#import "../Template/lib.typ": *
+#import "../Template_P/lib.typ": *
 #import "acronyms.typ": acronyms
 #import "glossary.typ": glossary
 
