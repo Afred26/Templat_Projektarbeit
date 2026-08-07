@@ -1,4 +1,5 @@
 #import "@local/templat-projektarbeit:0.1.17": *
+#import "../Template/Zusatz/acronyms.typ": acronyms
 
 #show: supercharged-dhbw.with(
   title: "Titel der Projektarbeit",
@@ -7,7 +8,7 @@
       (name: "Musterunternehmen GmbH", post-code: "12345", city: "Musterstadt")
     )),
   ),
-
+  acronyms: acronyms,
   at-university: false, // if true the company name on the title page and the confidentiality statement are hidden
   bibliography: bibliography("../Template/Zusatz/zotero.bib"),
   date: datetime.today(),

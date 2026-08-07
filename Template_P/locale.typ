@@ -154,5 +154,5 @@ The content of this thesis may not be made available, either in its entirety or 
 )
 #let FOREWORD = (
   "de": "Vorwort",
-  "en": "Foreword",
+  "en": "Preface",
 )
