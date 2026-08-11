@@ -519,7 +519,7 @@
 
   if (appendix != none) {
     heading(level: 1, numbering: none)[#APPENDIX.at(language)]
-    set heading(numbering: "A.1")
+    set heading(numbering: "A.1", supplement: [#APPENDIX.at(language)])
     counter(heading).update(0)
     appendix
   }
