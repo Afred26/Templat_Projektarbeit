@@ -519,6 +519,8 @@
 
   if (appendix != none) {
     heading(level: 1, numbering: none)[#APPENDIX.at(language)]
+    set heading(numbering: "A.1")
+    counter(heading).update(0)
     appendix
   }
 
