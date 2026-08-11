@@ -82,7 +82,7 @@ This template exports the `supercharged-dhbw` function with the following named 
 
 `acronyms (dictionary)`: Pass a dictionary containing the acronyms and their long forms (See the example in the `acronyms.typ` file)
 
-`appendix (content)`: Content of the appendix, it is recommended that you pass a variable containing the content or a function that returns the content
+`appendix (content)`: Content of the appendix, it is recommended that you pass a variable containing the content or a function that returns the content. Top-level headings (`=`) inside the appendix are labeled with capital letters (A, B, C, ...) instead of numbers, and lower-level headings are numbered relative to their letter (e.g. `A.1`)
 
 `at-university (bool*)`: Whether the document is written at university or not, default is `false`
 
