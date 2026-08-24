@@ -250,7 +250,7 @@
   }
 
   set page(
-    margin: (top: 8em, bottom: 8em),
+    margin: (top: 2.5cm, bottom: 2.5cm, left: 2.5cm, right: 2.5cm),
     header: [
       #set block(spacing: 0.75em)
       #context {
