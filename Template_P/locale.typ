@@ -65,7 +65,7 @@
 
 #let CONFIDENTIALITY_STATEMENT_SECTION_A = (
   "de": "Die vorliegende Arbeit mit dem Titel",
-  "en": "The present thesis",
+  "en": "The present thesis entitled:",
 )
 
 #let CONFIDENTIALITY_STATEMENT_SECTION_B = (
