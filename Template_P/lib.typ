@@ -80,6 +80,7 @@
   math-numbering: "(1)",
   page-numbering: (preface: "I", main: "1 / 1", appendix: "a"),
   font:"Liberation Serif",
+  hyphenate: false,
   logo-left: image("../Bilder/dhbw.svg"),
   logo-right: none,
   logo-size-ratio: "1:1",
@@ -151,7 +152,7 @@
   set figure.caption(separator: [ --- ], position: bottom)
 
   // set body font family
-  set text(font: body-font, lang: language, 12pt) //10.5 ist gut
+  set text(font: body-font, lang: language, hyphenate: hyphenate, 12pt) //10.5 ist gut
   show heading: set text(weight: "bold", font: heading-font)
 
   // heading numbering
