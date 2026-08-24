@@ -40,22 +40,22 @@
 
 #let DECLARATION_OF_AUTHORSHIP_SECTION_A_SINGLE = (
   "de": "Ich versichere hiermit, dass ich die vorliegende Arbeit mit dem Thema:",
-  "en": "I hereby declare that I wrote the present thesis with the topic:",
+  "en": "I hereby declare that I prepared the present thesis entitled:",
 )
 
 #let DECLARATION_OF_AUTHORSHIP_SECTION_A_PLURAL = (
   "de": "Wir versichern hiermit, dass wir die vorliegende Arbeit mit dem Thema:",
-  "en": "We hereby declare that we wrote the present thesis with the topic:",
+  "en": "We hereby declare that we prepared the present thesis entitled:",
 )
 
 #let DECLARATION_OF_AUTHORSHIP_SECTION_B_SINGLE = (
   "de": "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet habe und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt habe und diese bislang nicht veröffentlicht wurde.",
-  "en": "independently and without the use of any sources or aids other than those indicated, that this thesis has not been submitted to any other examination with identical or comparable content and that it has not been previously published.",
+  "en": "independently and using only the sources and aids indicated. I further declare that this thesis has not been submitted to any other examination with identical or comparable content and that it has not been previously published.",
 )
 
 #let DECLARATION_OF_AUTHORSHIP_SECTION_B_PLURAL = (
   "de": "selbstständig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel verwendet haben und diese Arbeit bei keiner anderen Prüfung mit gleichem oder vergleichbarem Inhalt vorgelegt haben und diese bislang nicht veröffentlicht wurde.",
-  "en": "independently and without the use of any sources or aids other than those indicated, that this thesis has not been submitted to any other examination with identical or comparable content and that it has not been previously published.",
+  "en": "independently and using only the sources and aids indicated. We further declare that this thesis has not been submitted to any other examination with identical or comparable content and that it has not been previously published.",
 )
 
 #let CONFIDENTIALITY_STATEMENT_TITLE = (
@@ -65,20 +65,20 @@
 
 #let CONFIDENTIALITY_STATEMENT_SECTION_A = (
   "de": "Die vorliegende Arbeit mit dem Titel",
-  "en": "The Thesis on hand",
+  "en": "The present thesis",
 )
 
 #let CONFIDENTIALITY_STATEMENT_SECTION_B = (
   "de": "enthält unternehmensinterne bzw. vertrauliche Informationen der",
-  "en": "contains internal respective confidential data of",
+  "en": "contains internal and confidential information of",
 )
 #let CONFIDENTIALITY_STATEMENT_SECTION_C = (
   "de": ", ist deshalb mit einem Sperrvermerk versehen und wird ausschließlich zu Prüfungszwecken im Studiengang",
-  "en": ". It is intended solely for inspection by the assigned examiner, the head of the",
+  "en": ". It is intended solely for review by the assigned examiner, the head of the",
 )
 #let CONFIDENTIALITY_STATEMENT_SECTION_D = (
   "de": " der ",
-  "en": " department and, if necessary, the Audit Committee at the ",
+  "en": " department and, if necessary, the Examination Board at the ",
 )
 #let CONFIDENTIALITY_STATEMENT_SECTION_E = (
   "de": " vorgelegt.
@@ -86,7 +86,7 @@
 Der Inhalt dieser Arbeit darf weder als Ganzes noch in Auszügen Personen außerhalb des Prüfungsprozesses und des Evaluationsverfahrens zugänglich gemacht werden, sofern keine anderslautende Genehmigung des Dualen Partners vorliegt.",
   "en": ".
 
-The content of this thesis may not be made available, either in its entirety or in excerpts, to persons outside of the examination process and the evaluation process, unless otherwise authorized by the Dual Partner.",
+Neither the complete thesis nor extracts from it may be made available to persons outside the examination and assessment process without prior authorization from the Dual Partner.",
 )
 
 #let INSTITUTION_SINGLE = (
