@@ -373,9 +373,18 @@
     )
   }
 
+  // strip inline bold (e.g. the highlighted initials of an acronym's long form)
+  // from every outline, so emphasis used inside headings and captions does not
+  // bleed into the table of contents and the other lists
+  show outline: it => {
+    show strong: content => content.body
+    it
+  }
+
   show outline.entry.where(level: 1): it => {
     v(18pt, weak: true)
-    strong(it)
+    // `text` instead of `strong`, so the rule above does not strip this one
+    text(weight: "bold", it)
   }
 
   set par(justify: true, leading: 1em)
