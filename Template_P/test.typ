@@ -1,4 +1,4 @@
-#import "@local/templat-projektarbeit:0.1.17": *
+#import "@local/templat-projektarbeit:0.1.19": *
 #import "../Template/Zusatz/acronyms.typ": acronyms
 
 #show: supercharged-dhbw.with(
